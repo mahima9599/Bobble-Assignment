@@ -1,0 +1,50 @@
+body{
+    background-color: blueviolet;
+}
+p {
+	color: black;
+	font-size: 0.7rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 100;
+	letter-spacing: .05rem;
+}
+.container{
+    background-color: white;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.555);
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.form-group input,textarea {
+color: white;
+/* text-align: center; */
+display: block;
+width: 200px;
+padding: 1px;
+/* border: 2px solid black; */
+margin: 11px auto;
+font-size: 15px;
+height: 30px;
+
+}
+.btnf{
+    background-color: whitesmoke;  
+}
+.btn{
+margin: 10px;
+background-color: green;
+color: white;
+width: 100px;
+font-size: 15px;
+height: 30px;
+border: 1px solid;
+}
+#base p span{
+ color: rgb(15, 11, 243);
+}
